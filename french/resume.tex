@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage[absolute,overlay]{textpos}
+\usepackage{scrextend}
 
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
@@ -62,7 +63,7 @@
   \begin{rSection}{Technologies Maitrisées}
     \begin{rSubsection}{}{}{}{}
       \item {\bf Concepts:} Design Patterns, OOP, UML, RUP, Scrum, Agile, SOA, BPM, TDD, BDD.
-      \item {\bf Langages de programmation:} C, C++ et Java.
+      \item {\bf Langages de programmation:} C, C++, C\# et Java.
       \item {\bf Frameworks/APIs - Java EE:} Servlets, JSP, JSF, Spring, EJB, MDB, JMS, JPA, JDBC, Web Services (SOAP et REST).
       \item {\bf Frameworks/APIs/Utils - C:} C standard library, Sockets, p\_threads, CMake, GDB, Valgrind.
       \item {\bf Frameworks/APIs/Utils - C++:} Qt, Boost, STD, STL.
@@ -82,15 +83,36 @@
 
       \begin{rSubsection}{\fontsize{9}{10}\selectfont Responsabilités:}{}{}{}
         \item Crée le design des systemes;
+          \begin{addmargin}[1em]{2em}
+            \renewcommand\labelitemi{$\cdot$}
+            \begin{itemize}
+              \item Travaillé avec un analyste d'affaires pour comprendre les besoins de l'utilisateur.
+              \item Crée le diagramme de cas d'utilisation, le diagramme de classe, le diagramme de séquence, diagramme d'activité, en utilisant UML.
+            \end{itemize}
+          \end{addmargin}
         \item Analysé, programmé et testé le code en C/C++ et Java;
+            \begin{addmargin}[1em]{2em}
+              \renewcommand\labelitemi{$\cdot$}
+              \begin{itemize}
+                \item Utilisé l'outil make avec gcc/g++ pour compiler le code C/C++.
+                \item Testé le code avec l'outil \#gdb -tui comme debugger et l'outil \#strace dans un environnement Linux, pour vérifier le fin de l'execution. 
+              \end{itemize}
+            \end{addmargin}
         \item Effectué le déploiement, la gestion et le support de la solution;
+            \begin{addmargin}[1em]{2em}
+              \renewcommand\labelitemi{$\cdot$}
+              \begin{itemize}
+                \item Travaillé avec l'outil Mantis pour faire la gestion des bugs.
+                \item Travaillé avec l'outil Jenkins pour compiler et faire le deploy.
+              \end{itemize}
+            \end{addmargin}        
       \end{rSubsection}
 
       \begin{rSubsection}{\fontsize{9}{10}\selectfont Projets significatifs:}{}{}{}
         \item Projet Kit Limpeza - Developpé un système pour tester des ports du hardware de localization des véhicules. Travaillé avec C/C++, sockets, p\_threads, Active MQ pour envoyer et recevoir des commandes aux equipments, et developpé le front-end avec Java, JSF, EJB, JPA et Web services.
       \end{rSubsection}
 
-      {\fontsize{8}{9}\selectfont \textbf{Environnement technique:} Eclipse, QT Creator, C, C++, Sockets, p\_threads, , SVN, Java, JSF, EJB, JPA, Web Services, Active MQ, PostgreSQL.}\\
+      {\fontsize{8}{9}\selectfont \textbf{Environnement technique:} Eclipse, QT Creator, C, C++, Sockets, p\_threads, gcc, make, SVN, Java, JSF, EJB, JPA, Web Services, Active MQ, PostgreSQL, Mantis.}\\
 
     \begin{rSubsection}{\fontsize{12}{14}\selectfont \bf Architecte et programmeur}{\fontsize{12}{14}\selectfont Déc. 2010 - Fev. 2015}{\fontsize{12}{14}\selectfont Winterlabs}{}
     La compagnie Winterlabs est une petite entrepise de development des systemes. Elle
@@ -100,18 +122,37 @@ détient de bureau à Curitiba au Brésil. \\\\
 
       \begin{rSubsection}{\fontsize{9}{10}\selectfont Responsabilités:}{}{}{}
         \item Crée l’architecture des systemes;
-        \item Analysé, programmé et testé le code en C/C++/Objective-C et Java;
+          \begin{addmargin}[1em]{2em}
+            \renewcommand\labelitemi{$\cdot$}
+            \begin{itemize}
+              \item Interviewé les utilisateurs des systèmes et simulateurs pour obtenir les exigences fonctionnelles et non fonctionnelles.
+              \item Choisi la technologie pour le développement de systèmes, basé sur l'expérience de l'équipe et les exigences fonctionnelles et les exigences non fonctionnelles.
+              \item Utilisé des design patterns pour créer un code propre, cohérente et facile à entretenir.
+              \item Crée une architecture pour le rendering, périphériques d'E/S (clavier, souris, écran tactile et sonore) des jeux video et des simulateurs.
+              \item Crée une architecture client / serveur de réseau d'applications distribuées en utilisant le protocole TCP et UDP.\\
+            \end{itemize}
+          \end{addmargin}
+        \item Analysé, programmé et testé le code en C/C++/C\#/Objective-C et Java;
         \item Effectué le déploiement, la gestion et le support de la solution;
+            \begin{addmargin}[1em]{2em}
+              \renewcommand\labelitemi{$\cdot$}
+                \begin{itemize}
+                  \item Travaillé avec l'outil Trello pour faire la gestion des bugs.
+                  \item Travaillé avec l'outil Jenkins pour compiler et faire le deploy.
+                \end{itemize}
+            \end{addmargin}
         \item Évalué et testé nouvelles tecnologies;
       \end{rSubsection}
 
       \begin{rSubsection}{\fontsize{9}{10}\selectfont Projets significatifs:}{}{}{}
         \item Projet STAP - Mis en œuvre un simulateur de tir virtuel pour les forces armes du Bresil, développé le module qui contrôle la piste de tir utilisant \textbf{Java}, utilisé \textbf{C/C++} avec OpenGL pour rendre les scènes du stand de tir, utilisé \textbf{Jasper Reports} pour développer les rapports sur les sessions de tir et utilisé \textbf{MySQL} comme base de données.
+        \item Projet STAP 2.0 - Développé la deuxieme version d'un simulateur de tir virtuel pour les forces armes du Bresil, avec les technologies \textbf{C#}, \textbf{C++}, \textbf{C\#}, Windows Forms, LINQ, MySQL et Unity3D.
+        \item Projet STAP Calibration - Develloppé un système pour étalonner les caméras et les lasers de détection de projetées sur les écrans en utilisant \textbf{C/C++} et \textbf{OpenCV}.
         \item Projet SKY FIGHTERS - Développé un jeu de carte et stratégie pour \textbf{iOS} en utilisant \textbf{Objective-C} et cocos2d framework.
         \item Projet RESTA1 - Développé un jeux de plateau classique pour \textbf{iOS} en utilisant \textbf{Objective-C} et cocos2d framework.
       \end{rSubsection}
 
-      {\fontsize{8}{9}\selectfont \textbf{Environnement technique:} Xcode, Objective-c, Eclipse, Java SE 1.6, Eclipse-RCP, SWT, QT Creator, C, Sockets, OpenCV, OpenGL, C++, SFML, GLSL, SVN, GIT, MySQL.}\\
+      {\fontsize{8}{9}\selectfont \textbf{Environnement technique:} Xcode, Objective-c, Eclipse, Java SE 1.6, Eclipse-RCP, SWT, QT Creator, C, Sockets, OpenCV, OpenGL, C++, SFML, GLSL, Visual Studio, C\#, SVN, GIT, MySQL.}\\
     
 
     \begin{rSubsection}{\fontsize{12}{14}\selectfont \bf Analyste et programmeur}{\fontsize{12}{14}\selectfont Août 2008 - Déc. 2010}{\fontsize{12}{14}\selectfont GVT Telecom}{}
@@ -153,7 +194,7 @@ détient de bureau à Curitiba au Brésil. \\\\
 
       \begin{rSubsection}{\fontsize{9}{10}\selectfont Projets significatifs:}{}{}{}
         \item Projet “HOB-PWS” - Développé un système pour les clients du HSBC sans compte bancaire payent leurs factures d'électricité et de l'eau sur Internet banking. Utilisé Java, XML, XSLT et HTML pour developpé le front-end et Java pour faire l'intégration avec Cobol CICS;
-        \item Projet “CDCI”. Mis en œuvre un système de simulation de financement direct pour le client de détail. Fait le design de l’application utilisant le IBM RSA (Use cases diagrams, classes diagrams, sequence diagrams et activity diagrams). Développé dans le modèle MVC en utilisant Java, Eclipse-RCP et SWT;
+        \item Projet “CDCI”. Mis en œuvre un système de simulation de financement direct pour le client de détail. Fait le design de l’application en utilisant le IBM RSA (Use cases diagrams, classes diagrams, sequence diagrams et activity diagrams). Développé dans le modèle MVC en utilisant Java, Eclipse-RCP et SWT;
         \item Projet “CNB-CED” - Creé un système de gestion des signatures de contrats de change pour les clients qui accèdent à l'Internet Banking du HSBC. Travaillé avec Java, SOA architecture, BPM et fait l'intégration avec le back-end Cobol CICS.
       \end{rSubsection}
 
